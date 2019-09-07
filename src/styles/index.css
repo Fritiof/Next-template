@@ -1,0 +1,41 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    @apply bg-blue-400;
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+h1 {
+    @apply text-4xl;
+}
+h2 {
+    @apply text-2xl;
+}
+h3 {
+    @apply text-xl;
+}
+h4 {
+    @apply text-lg;
+}
+h5 {
+    @apply text-base;
+}
+
+/* IE10+ CSS styles go here */
+/* @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+} */

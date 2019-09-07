@@ -1,0 +1,9 @@
+{
+    "javascript.preferences.quoteStyle": "single",
+    "eslint.autoFixOnSave": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+}
