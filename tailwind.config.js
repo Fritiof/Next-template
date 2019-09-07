@@ -19,15 +19,15 @@ module.exports = {
         },
         backgroundColor: theme => ({
             ...theme('colors'),
-            // ...brandColors,
+            ...brandColors,
         }),
         textColor: theme => ({
             ...theme('colors'),
-            // ...brandColors,
+            ...brandColors,
         }),
         borderColor: theme => ({
             ...theme('colors'),
-            // ...brandColors,
+            ...brandColors,
         }),
     },
     variants: {},
