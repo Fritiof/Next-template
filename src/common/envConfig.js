@@ -1,9 +1,9 @@
 const nextConfig = require('next/config');
 
-function getClient() {
-    return nextConfig && nextConfig.default() && nextConfig.default().publicRuntimeConfig;
+function getClientConfig() {
+    return nextConfig && nextConfig.default() && nextConfig.default().publicConfig;
 }
 
 module.exports = {
-    getClientConfig: getClient,
+    getClientConfig,
 };
